@@ -1,5 +1,5 @@
 # BMI Calculator
-# Enter weight and height
+# Enter your weight and height
 # Using metrics of kg and cm
 Weight = float(input("Enter your weight in kg:"))
 Height = float(input("Enter your height in cm:"))
@@ -16,7 +16,7 @@ elif 29.9 <= bmi < 34.9:
     print("You are at a obesity weight.\nTry implementing a healthy diet and exercise to your routine.")
 else:
     print("Contact your doctor for further assistance.")
-
+    
 # Basal Metabolic Rate
 print("Now let's calculate your basal metabolic rate.")
 Age = int(input("Enter your age:"))
